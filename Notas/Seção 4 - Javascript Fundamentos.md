@@ -1,0 +1,5 @@
+## Seção 4 - Javascript Fundamentos
+
+**Algoritmo:** é uma sequência de passos para um objetivo. Estes passos podem ser repetidos. É possível também que haja tomada de decisão. Quais passos serão executados e sua ordem tem importância. O algoritmo em si não é uma linguagem de programação e pode ocorrer em diversos cenários da vida real, porém para a escrita de códigos utiliza-se do padrão de algoritmos.
+
+**Estruturas de Dados:** são responsáveis por organizar e administrar os dados. Exemplos de estruturas de dados são listas, filas (primeiro que entra é o primeiro que sai, FIFO), pilhas (ultimo que entra é o primeiro que sai, LIFO), árvores. Os dados organizados pelas estruturas podem ser dados básicos (em javascript string, number ou boolean) ou dados mais complexos criados a partir de dados básicos (uma data por exemplo, composta de dia, mês e ano que seriam dados number). Estes dados são armazenados em variáveis ou constantes e são utilizados em operações, de atribuição, aritméticas, relacionais ou lógicas.
