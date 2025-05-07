@@ -14,5 +14,6 @@ Exemplo -> {
                 Console.log("Hello World!");
             }
 
-**Dados**: são informações manipuladas dentro do código. Dados são armazenados em variáveis e em javascript possuem tipos como _string_ para textos, _number_ para números inteiros e para números reais e _bool_ para valores booleanos (verdadeiro ou falso). Obs.: podemos usar a função 'tipeof' dentro de um console.log() junto de uma variável ou valor literal para verificar seu tipo em javascript. Variáveis podem variar e ter outros valores a ela atribuídos no decorrer do código. Em javascript se cria uma variável com as palavras reservadas _var_ ou _let_ e se utiliza o igual (=) para atribuição de valor à esta variável.
+**Dados**: são informações manipuladas dentro do código. Dados são armazenados em variáveis ou constantes e em javascript estas possuem tipos como _string_ para textos, _number_ para números inteiros e para números reais e _bool_ para valores booleanos (verdadeiro ou falso). Obs.: podemos usar a função 'tipeof' dentro de um console.log() junto de uma variável/constante ou valor literal para verificar seu tipo em javascript. Variáveis podem variar e ter outros valores a ela atribuídos no decorrer do código. Constantes não podem ter seus valores alterados. Em javascript se cria uma variável com as palavras reservadas _var_ ou _let_ e se utiliza o igual (=) para atribuição de valor à esta variável, já para constantes se utiliza a palavra reservada _const_.
 Exemplo -> var saudacao = "Hello World!";
+           const constante = 1;
