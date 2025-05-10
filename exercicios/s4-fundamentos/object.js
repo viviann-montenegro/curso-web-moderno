@@ -21,3 +21,14 @@ const prod2 = {
 console.log(prod2)
 
 const objJson = '{"nome":"teste","atributo":1}'//forma textual Json de um objeto (json: javascript object notation)
+
+console.log(typeof Object) //Object é do tipo função
+console.log(typeof new Object) //new Object -> instância, é do tipo objeto
+
+const Cliente = function() {}
+console.log(typeof Cliente) //Cliente é do tipo função
+console.log(typeof new Cliente) //new Cliente -> instância, é do tipo objeto
+
+class Produto {}
+console.log(typeof Produto) //Produto é do tipo função
+console.log(typeof new Produto) //new Produto -> instância, é do tipo objeto
