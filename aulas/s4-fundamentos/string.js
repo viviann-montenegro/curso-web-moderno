@@ -18,3 +18,8 @@ console.log(escola.replace(3, 'e')) //troca o caractere do indice informado pelo
 console.log('Ana,Maria,Pedro'.split(',')) //gera um array separando o string conforme o separador indicado
 
 console.log('3' + 2) //concatena o 3 e 2 -> 32, pois + faz sentido na string e elatem preferencia sobre o number
+
+//Caso sejam comparados numeros em formato string, funciona de 0 a 9, porém para 10 em diante a comparação avalia
+// o primeiro numero, gerando inconsistencias -> não é indicado
+// ex '3' > '2' -> retorna true
+// ex '20' > '3' -> retorna false pois compara '2' e '3'
